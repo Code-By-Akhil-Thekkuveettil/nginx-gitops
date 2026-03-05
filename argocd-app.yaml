@@ -12,9 +12,9 @@ metadata:
     argocd-image-updater.argoproj.io/write-back-method: git
 
 spec:
-  project: defaulthttps://github.com/Code-By-Akhil-Thekkuveettil/nginx-gitops.git
+  project: default
   source:
-    repoURL: 
+    repoURL: https://github.com/Code-By-Akhil-Thekkuveettil/nginx-gitops.git
     targetRevision: main
     path: helm-nginx
   destination:
